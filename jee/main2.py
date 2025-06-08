@@ -16,7 +16,7 @@ import PyPDF2
 st.set_page_config(page_title="Edumorph", page_icon="📚", layout="wide")
 
 # API key
-API_KEY = "AIzaSyC8SseAnaWxqIlw365eKxYDM4Og3mtLbS0"
+API_KEY = "Your_gemini_api_key"
 
 # Initialize session state variables if they don't exist
 if 'summary' not in st.session_state:
